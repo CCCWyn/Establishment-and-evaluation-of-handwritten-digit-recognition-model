@@ -1,5 +1,5 @@
 # Establishment-and-evaluation-of-handwritten-digit-recognition-model
-一、使用支持向量机对随机生成的数字图像进行分类:
+.#一、使用支持向量机对随机生成的数字图像进行分类:
 首  先定义一个函数 generateDigits(dstDir,num) 来随机生成num个数字图像，并存储在文件夹dstDir中。再定义另一个函数loadDigits(dstDir) 来读取dstDir文件夹中图像的数字信息，
 对图像空白处就行处理，并按照标准进行分类。最后将生成的数据随机划分训练集和测试集，运用训练集来创建和训练模型，再通过测试集对模型进行评分。
 run temp.py
